@@ -1,0 +1,216 @@
+html{
+    overflow-x: hidden;
+    }
+    *{
+
+        margin:0;
+        
+        padding:0;
+        
+        }
+        
+         
+        
+        body, html{height:100%;}
+        
+        body{
+        
+        text-align:center;
+        
+        }
+    .navbar ul li{
+        margin-left: 30px;
+        color: white !important;
+    
+    }
+.title{
+    /* margin-right: 500px !important; */
+    margin-bottom: 400px !important;
+    padding-right: 400px !important;
+}
+.title h5{
+    font-size: 12mm;
+    font-style:initial;
+    text-align: left;
+    font-family: sans-serif;
+}
+.title h1{
+    font-size: 16mm;
+    text-align: left;
+    font-family: sans-serif;
+}
+.ligne{
+    background-color: white;
+    border: white;
+    height: 1px;
+    width: 45px;
+    position: absolute;
+    margin-top: 70px !important;
+    margin-right: 90px;
+}
+.text{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+.design{
+max-width: 100%; 
+display:block; 
+height: auto;
+
+margin-top: 720px;
+position: fixed;
+}
+
+.aboutUs{
+    background-color: #F2F4F4;
+    height: auto;
+    width: auto;
+}
+.card1{
+    border: white;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.allCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  bottom: 100px;
+  margin-right: 180px;
+}
+.image{
+    max-width: 500px;
+    max-height: 800px;
+}
+.design2{
+   position: relative;
+   top: 20px;
+}
+
+.default{
+    border: 2px solid #1D1C1E;
+    background-color: white;
+    color: black;
+    /* padding: 10px 15px; */
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+    border-color: #1D1C1E;
+    color: #1D1C1E;
+    margin-left: 50px;
+}
+
+
+/* hhhhhhh */
+.icon-bar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #1D1C1E;
+    font-size: 30px;
+    display: block;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #1D1C1E;
+    color: white;
+  }
+  
+  .icon-bar .active {
+      color: white;
+    background-color: #1D1C1E;
+  }
+.description{
+    background-color: white;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+.active{
+    background-color:#1D1C1E ;
+    border: #1D1C1E;
+}
+.card-deck .card{
+    border: none;
+    max-width: 300px;
+    margin-left: 45px;
+}
+.button{
+    background-color: white;
+    border:1px, black;
+    width: 150px;
+}
+.cercle{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background:#1D1C1E;
+}
+
+
+
+
+.footer{
+    background-color: #1D1C1E;
+}
+
+.ligne1{
+    background-color: white;
+    height: 1px;
+    width: 60px;
+    margin-right: 20px;
+}
+.ligne2{
+    background-color: white;
+    height: 1px;
+    width: 40px;
+}
+.text1{
+    position: absolute;
+    margin-left: 130px;
+    margin-bottom: 10px !important;
+}
+.tablee tr{
+    border: none;   
+}
+.contact a {
+    display: flex;
+    align-content: space-between;
+}
+.contact a i{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.array{
+    border:#1D1C1E ;
+    border-spacing: 2px;
+}
+.hr{
+    height: 1px;
+    width: auto;
+    background-color: white;
+}
