@@ -1,3 +1,17 @@
+/* common font */
+@font-face {
+    font-family: 'CerebriSansPro-Bold';
+    src: url('../fonts/CerebriSansPro-Bold.eot');
+    src: url('../fonts/CerebriSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CerebriSansPro-Bold.svg#CerebriSansPro-Bold') format('svg'),
+         url('../fonts/CerebriSansPro-Bold.ttf') format('truetype'),
+         url('../fonts/CerebriSansPro-Bold.woff') format('woff'),
+         url('../fonts/CerebriSansPro-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*  end common font */
+
 html{
     overflow-x: hidden;
     }
@@ -8,9 +22,6 @@ html{
         padding:0;
         
         }
-        
-         
-        
         body, html{height:100%;}
         
         body{
@@ -112,7 +123,7 @@ position: fixed;
 }
 
 
-/* hhhhhhh */
+
 .icon-bar {
     width: 100%;
     background-color: white;
@@ -132,16 +143,43 @@ position: fixed;
   
   .icon-bar a:hover {
     background-color: #1D1C1E;
-    color: white;
+    color: white 2px solid;
   }
   
   .icon-bar .active {
       color: white;
     background-color: #1D1C1E;
   }
+  .iconsBlock{
+    background-color: #F2F4F4;
+    border-radius: 25px;
+  }
+  .iconsBlock ul{
+      display: flex;
+  }
+  .iconsBlock ul li{
+      text-align: center;
+      display: block;
+      margin-top: 10px;
+  }
+  .iconsBlock ul li a{
+      text-decoration: none;
+      padding: 0 25px;
+      display: block;
+  }
+  .iconsBlock ul .active{
+      background-color: #1D1C1E;
+      color: white;
+      /* padding: 0 10px;
+      padding-top: 10px; */
+      border: #1D1C1E;
+      border-radius: 25px;
+  }
+
 .description{
     background-color: white;
     margin-top: 200px;
+    padding: 15px 15px !important;
 }
 
 
@@ -169,6 +207,17 @@ position: fixed;
     height: 40px;
     border-radius: 20px;
     background:#1D1C1E;
+}
+.view{
+    width: 180px;
+    height: 55px;
+    background-color: #1D1C1E;
+    color: white;
+    font-size: 25px;
+    border: solid 2px #1D1C1E;
+}
+ul{
+    list-style: none;
 }
 
 
@@ -214,3 +263,47 @@ position: fixed;
     width: auto;
     background-color: white;
 }
+
+
+/* media-query */
+@media screen and (max-width: 1000px) {
+    .default {
+        width :100px
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .im{
+        position: relative;
+        top: 250px;
+        font-size: 5mm !important;
+        font-style: italic;
+    }
+    .im1{
+       display: none;
+    }
+    .iconsBlock ul li a{
+        text-decoration: none;
+        padding: 0 13px;
+        display: block;
+    }
+    .card1{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .social{
+        margin-left: 150px;
+    }
+            
+  }
+
+  @media screen and (max-width : 764px){
+    
+      .array{
+          margin-left: 200px;
+      } 
+  }
